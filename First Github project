@@ -1,0 +1,16 @@
+This is my first Github Project where the task is to create 3 files which is log.txt, code.txt and output.txt and push 2 files i.e., code.txt and output.txt on master branch. Here is the command which I used:
+Since Git is already installed on ubuntu therefore Git was not installed
+Created a folder using mkdir and named it as gitpractice
+Initialized the git using gitinit command inside gitpractice folder
+Added three folders log.txt, code.txt and output.txt using nano command and written text like "This is log folder, This is code folder and This is output folder" respectively. 
+Used git add command only for code.txt and output.txt to adds a change in the working directory to the staging area.
+Used git commit command only for code.txt and output.txt
+Log in on Github and created repo gitnew. Copied the repo link for next step
+Used command git remote add origin pasted the repo link
+Used command git push orgin master
+It asked for username so provided it
+It asked for password which was shared from the token option on Github
+Once entered username and password the two files were pushed on the Github repo
+
+Challenges:
+Need to remember syntax for Remote and push commands.
